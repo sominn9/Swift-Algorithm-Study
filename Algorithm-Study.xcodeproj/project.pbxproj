@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		CB950EE728731116008C60A3 /* Algorithm-Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm-Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB950EEA28731116008C60A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CB950EF42873157A008C60A3 /* 62048_멀쩡한사각형.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62048_멀쩡한사각형.swift"; sourceTree = "<group>"; };
+		CBAE5CB5287342BA0094FFD5 /* 60057_문자열압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "60057_문자열압축.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,34 @@
 			isa = PBXGroup;
 			children = (
 				CB950EEA28731116008C60A3 /* main.swift */,
+				CB950EF328731172008C60A3 /* Baekjoon */,
+				CB950EF228731150008C60A3 /* Programmers */,
+				CB950EF128731130008C60A3 /* LeetCode */,
 			);
 			path = "Algorithm-Study";
+			sourceTree = "<group>";
+		};
+		CB950EF128731130008C60A3 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		CB950EF228731150008C60A3 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				CB950EF42873157A008C60A3 /* 62048_멀쩡한사각형.swift */,
+				CBAE5CB5287342BA0094FFD5 /* 60057_문자열압축.swift */,
+			);
+			path = Programmers;
+			sourceTree = "<group>";
+		};
+		CB950EF328731172008C60A3 /* Baekjoon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Baekjoon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
