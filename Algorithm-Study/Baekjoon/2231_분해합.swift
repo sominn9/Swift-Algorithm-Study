@@ -9,17 +9,9 @@ import Foundation
 
 // N = M + M을 이루는 각 자리수의 합 (M은 N의 생성자)
 let n = Int(readLine()!)!
-var result: [Int] = []
 
-for num in 0..<n {
-    let digit: [Int] = Array(String(num)).map { Int(String($0))! }
-    if num + digit.reduce(0, +) == n {
-        result.append(num)
-    }
+let first = (0..<n).first { num in
+    num + String(num).reduce(0) { $0 + $1.wholeNumberValue! } == n
 }
 
-if result.isEmpty {
-    print(0)
-} else {
-    print(result.min()!)
-}
+print(first ?? 0)
