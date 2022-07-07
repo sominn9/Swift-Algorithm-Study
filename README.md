@@ -1,2 +1,10 @@
 # Algorithm-Study
-Swift로 알고리즘 문제 풀기
+
+```bash
+Algorithm-Study
+├── main.swift
+├── Baekjoon
+├── Programmers
+├── LeetCode
+└── Unknown
+``` 
